@@ -1,4 +1,4 @@
-ï»¿#include<iostream>
+#include<iostream>
 #include<stdio.h>
 #include<string>
 using namespace std;
@@ -26,16 +26,16 @@ int main() {
 		}
 
 
-		int sum = num1 + num2 + tmp;//ë‚¨ê¸´ 10ì˜ ìžë¦¬ ìˆ˜ë¥¼ ê³„ì† ë”í•´ì¤€ë‹¤->ë‹¤ìŒ 1ì˜ ìžë¦¬ìˆ˜ì— ê·¸ ì „ì— 10ì˜ ìžë¦¬ìˆ˜ë¥¼ ë”í•´ì£¼ê¸°
-		tmp = sum / 10;//10ì˜ ìžë¦¬ìˆ˜ ë‚¨ê¹€
-		sum %= 10;//1ì˜ ìžë¦¬ìˆ˜ ê³„ì‚°
-		result += (sum + '0');//ê°’ ë”í•œ 1ì˜ ìžë¦¬ìˆ˜ ë¶™ì—¬ì£¼ê¸° 
+		int sum = num1 + num2 + tmp;//³²±ä 10ÀÇ ÀÚ¸® ¼ö¸¦ °è¼Ó ´õÇØÁØ´Ù->´ÙÀ½ 1ÀÇ ÀÚ¸®¼ö¿¡ ±× Àü¿¡ 10ÀÇ ÀÚ¸®¼ö¸¦ ´õÇØÁÖ±â
+		tmp = sum / 10;//10ÀÇ ÀÚ¸®¼ö ³²±è
+		sum %= 10;//1ÀÇ ÀÚ¸®¼ö °è»ê
+		result += (sum + '0');//°ª ´õÇÑ 1ÀÇ ÀÚ¸®¼ö ºÙ¿©ÁÖ±â 
 	}
 	if (tmp > 0) {
 		result += tmp + '0';
 	}
 	string ans = "";
-	for (int i = result.length() - 1; i >= 0; i--) {//ê±°ê¾¸ë¡œ ì¶œë ¥
+	for (int i = result.length() - 1; i >= 0; i--) {//°Å²Ù·Î Ãâ·Â
 		ans += result[i];
 	}
 	cout << ans;
