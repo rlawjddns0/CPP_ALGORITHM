@@ -13,10 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\BAEK">
+      <UniqueIdentifier>{67f2b779-0103-40e1-befe-c94a614d64fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Project1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BAEK</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
